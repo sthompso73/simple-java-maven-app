@@ -29,5 +29,10 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage ('Test Branch') {
+            steps {
+                echo 'Job Complete from a branch!'
+            }
+        }
     }
 }
